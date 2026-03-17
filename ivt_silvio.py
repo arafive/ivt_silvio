@@ -17,8 +17,8 @@ import matplotlib.ticker as mticker
 ### Installare --> pip install netCDF4
 
 lista_possibili_cartelle_lavoro = [
-    '/media/daniele/Daniele2TB/test/ivt_silvio',
-    '/run/media/daniele.carnevale/Daniele2TB/test/ivt_silvio',
+    '/media/daniele/Daniele2TB/repo/ivt_silvio',
+    '/run/media/daniele.carnevale/Daniele2TB/repo/ivt_silvio',
     ]
 
 cartella_lavoro = [x for x in lista_possibili_cartelle_lavoro if os.path.exists(x)][0]
