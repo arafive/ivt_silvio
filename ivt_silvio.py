@@ -31,9 +31,9 @@ os.chdir(cartella_lavoro)
 g                   = 9.80665
 livelli_plot_ivt    = [250, 300, 400, 500, 600, 700, 800, 900, 1000]
 skip_frecce         = 5
-cartella_file_nc    = '/run/media/daniele.carnevale/Daniele2TB/test/ivt_silvio/gfs'
+cartella_file_nc    = '/run/media/daniele.carnevale/Daniele2TB/repo/ivt_silvio/gfs'
 nome_dataset_finale = 'IVTxy_dataset_completo'
-cartella_output_png = '/run/media/daniele.carnevale/Daniele2TB/test/ivt_silvio/figure'
+cartella_output_png = '/run/media/daniele.carnevale/Daniele2TB/repo/ivt_silvio/figure'
 
 os.makedirs(cartella_output_png, exist_ok=True)
 
